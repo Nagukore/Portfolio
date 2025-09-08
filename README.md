@@ -1,6 +1,6 @@
 # 🚀 Nagesh's Portfolio 2.0
 
-A clean, Apple-inspired portfolio website showcasing my skills in AI/ML and web development. Hosted on [Netlify](https://netlify.com) for instant deployment and easy updates.
+A clean, modern portfolio website showcasing my skills in AI/ML and web development. Hosted on [Netlify](https://netlify.com) for instant deployment and easy updates.
 
 ---
 
