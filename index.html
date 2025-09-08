@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagesh - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- EmailJS CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Nagesh kore</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Turning Ideas<br>Into Reality</h1>
+                <p class="hero-subtitle">AIML Student & Full Stack Developer</p>
+                <p class="hero-description">
+                    Crafting intelligent digital experiences that blend AI/ML with web development. 
+                    Where innovation meets elegance, and code becomes art.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-content">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-content">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passion. Innovation. Excellence.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">
+                        Hi! I'm an aspiring engineer currently pursuing my Bachelor's degree in Artificial Intelligence and Machine Learning. I'm a passionate web developer, AI/ML enthusiast, and a curious innovator who loves to create smart, purposeful digital experiences.
+                    </p>
+                    <p>
+                        I enjoy blending design with logic to build clean, responsive websites and intelligent applications that solve real-world problems. Whether it's coding, experimenting with new technologies, or turning ideas into impactful solutions, I'm always driven by a desire to learn and build.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>Fresher</h3>
+                            <p>Experience Level</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>AIML</h3>
+                            <p>Bachelor's Degree</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle">Projects that push boundaries</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">
+                                <i class="fas fa-hand-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content" onclick="window.open('https://github.com/Trishag04/VIRTUAL-AI-MOUSE','_blank')">
+                        <h3>Virtual Mouse Using Hand Gestures</h3>
+                        <p>A computer vision project that allows you to control your mouse using hand gestures via OpenCV and MediaPipe.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">MediaPipe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Trishag04/VIRTUAL-AI-MOUSE" target="_blank" class="project-link">View on GitHub</a>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content" onclick="window.open('https://github.com/Nagukore/GitTogether','_blank')">
+                        <h3>EDA Automation Script</h3>
+                        <p>A Python script that performs Exploratory Data Analysis on any CSV file and outputs insights with graphs.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nagukore/GitTogether" class="project-link">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>This very website — designed to showcase my skills, resume, and project experience in a clean, responsive layout.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Tools of the trade</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend & Web</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Dart</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Programming & AI/ML</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Data & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Excel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resume</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="resume-content">
+                <div class="resume-info">
+                    <h3>Download My Resume</h3>
+                    <p>Get a detailed view of my education, experience, and technical skills in a professional format.</p>
+                    <div class="resume-details">
+                        <div class="resume-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Bachelor's in AIML</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fas fa-code"></i>
+                            <span>4+ Projects Completed</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Full Stack Development</span>
+                        </div>
+                    </div>
+                    <div class="resume-actions">
+                        <a href="./resume.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i>
+                            Download Resume (PDF)
+                        </a>
+                        <a href="./resume.pdf" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-eye"></i>
+                            View Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="resume-visual">
+                    <div class="resume-card">
+                        <div class="resume-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h4>Professional Resume</h4>
+                        <p>Comprehensive overview of my skills and experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to create something amazing?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Start a conversation</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. 
+                       Let's discuss how we can bring your vision to life.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nagesh.amcec@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8310643598</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bengaluru, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Nagukore" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nagesh-kore-7566b6254" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/the.nagesh" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Nagesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
