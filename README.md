@@ -7,7 +7,7 @@ A clean, Apple-inspired portfolio website showcasing my skills in AI/ML and web 
 ## 🌐 Live Demo
 
 Check out the live site:  
-**[portfolio-nagesh.netlify.app](https://portfolio-nagesh.netlify.app)**
+**[portfolio-nagesh.netlify.app](https://nageshs.netlify.app)**
 
 ---
 
@@ -94,7 +94,7 @@ Fork the repo, open a pull request, or contact me for collaboration.
 ## 🔗 Links
 
 - [GitHub Repo](https://github.com/Nagukore/Portfolio)
-- [Live Demo](https://portfolio-nagesh.netlify.app)
+- [Live Demo](https://nageshs.netlify.app)
 
 ---
 
