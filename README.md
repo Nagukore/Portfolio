@@ -7,7 +7,7 @@ A clean, modern portfolio website showcasing my skills in AI/ML and web developm
 ## 🌐 Live Demo
 
 Check out the live site:  
-**[portfolio-nagesh.netlify.app](https://nageshs.netlify.app)**
+**<a href="https://nageshs.netlify.app" target="_blank" rel="noopener noreferrer">portfolio-nagesh.netlify.app</a>**
 
 ---
 
